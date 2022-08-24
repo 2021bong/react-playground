@@ -1,4 +1,4 @@
-import Item from './Item';
+import ItemList from './ItemList';
 import './Card.scss';
 
 const FormLayout = (props) => {
@@ -16,9 +16,7 @@ const FormLayout = (props) => {
         <div>
           <p>{content}</p>
         </div>
-        <ul className={type === 'Good' ? 'goodList' : 'themeList'}>
-          {list && list.map((el) => <Item key={el.id} list={el} />)}
-        </ul>
+        {list && <ItemList type={type} list={list} />}
       </div>
     </article>
   );

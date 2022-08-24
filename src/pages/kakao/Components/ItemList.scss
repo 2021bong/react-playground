@@ -1,0 +1,23 @@
+.cardList {
+  .card {
+    .cardMain {
+      padding: 20px 30px;
+
+      .goodList {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0 13px 0 0;
+      }
+
+      .themeList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0 0 0 5px;
+      }
+    }
+  }
+}

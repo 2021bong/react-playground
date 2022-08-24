@@ -16,6 +16,7 @@ const CardList = () => {
       {state.map((el) => {
         return (
           <Card
+            key={el.id}
             bgImg={el.bgImg}
             type={el.type}
             typeClassName={el.typeClassName}
