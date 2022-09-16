@@ -33,7 +33,8 @@ const Toggle = styled.div`
     }
   }
 
-  .toggleSwitch.active {
+  // +선택자도 가능하고 ~선택자도 가능하다
+  #toggle:checked + .toggleSwitch {
     background: #207cf5;
 
     .toggleButton {
@@ -45,14 +46,14 @@ const Toggle = styled.div`
 `;
 
 const CssStudy = (props) => {
-  const handleToggle = (e) => {
-    const toggleLabel = e.target.nextSibling;
-    toggleLabel.classList.toggle('active');
-  };
+  // const handleToggle = (e) => {
+  //   const toggleLabel = e.target.nextSibling;
+  //   toggleLabel.classList.toggle('active');
+  // };
 
   return (
     <Toggle>
-      <input type='checkbox' id='toggle' hidden onClick={handleToggle} />
+      <input type='checkbox' id='toggle' hidden />
       <label htmlFor='toggle' className='toggleSwitch'>
         <span className='toggleButton'></span>
       </label>
