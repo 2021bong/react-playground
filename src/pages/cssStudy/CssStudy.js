@@ -52,12 +52,20 @@ const CssStudy = (props) => {
   // };
 
   return (
-    <Toggle>
-      <input type='checkbox' id='toggle' hidden />
-      <label htmlFor='toggle' className='toggleSwitch'>
-        <span className='toggleButton'></span>
-      </label>
-    </Toggle>
+    <>
+      <Toggle>
+        <input type='checkbox' id='toggle' hidden />
+        <label htmlFor='toggle' className='toggleSwitch'>
+          <span className='toggleButton'></span>
+        </label>
+      </Toggle>
+      <ul>
+        <li>가</li>
+        <li>나</li>
+        <li>다</li>
+        <li>라</li>
+      </ul>
+    </>
   );
 };
 
