@@ -1,5 +1,30 @@
-import React from 'react';
+import CheckItem from './CheckItem';
 import styled from 'styled-components';
+
+const CssStudy = (props) => {
+  // const handleToggle = (e) => {
+  //   const toggleLabel = e.target.nextSibling;
+  //   toggleLabel.classList.toggle('active');
+  // };
+
+  return (
+    <Main>
+      <Toggle>
+        <input type='checkbox' id='toggle' hidden />
+        <label htmlFor='toggle' className='toggleSwitch'>
+          <span className='toggleButton'></span>
+        </label>
+      </Toggle>
+      <CheckItem text='체크박스' />
+    </Main>
+  );
+};
+
+export default CssStudy;
+const Main = styled.div`
+  width: 500px;
+  margin: 100px auto;
+`;
 
 const Toggle = styled.div`
   display: flex;
@@ -44,29 +69,3 @@ const Toggle = styled.div`
     }
   }
 `;
-
-const CssStudy = (props) => {
-  // const handleToggle = (e) => {
-  //   const toggleLabel = e.target.nextSibling;
-  //   toggleLabel.classList.toggle('active');
-  // };
-
-  return (
-    <>
-      <Toggle>
-        <input type='checkbox' id='toggle' hidden />
-        <label htmlFor='toggle' className='toggleSwitch'>
-          <span className='toggleButton'></span>
-        </label>
-      </Toggle>
-      <ul>
-        <li>가</li>
-        <li>나</li>
-        <li>다</li>
-        <li>라</li>
-      </ul>
-    </>
-  );
-};
-
-export default CssStudy;

@@ -21,6 +21,7 @@ useImperativeHandle의 사용 방법을 익혀봅니다.
 심화적인 css 스터디를 진행합니다.
 
 1. input을 커스텀 해 만든 스위치 토글
+2. 커스텀한 input checkbox
    <br />
    <br />
 
