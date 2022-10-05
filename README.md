@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 📝프로젝트 안내
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+레포 이름 그대로 React를 비롯한 다양한 기술들을 공부해보는 놀이터입니다.
 
-## Available Scripts
+- 메인 페이지는 가장 최근에 공부한 내용의 컴포넌트입니다.
+- 주제별 url은 하단에서 확인하실 수 있습니다.
+  <br />
+  <br />
+  <br />
 
-In the project directory, you can run:
+### ✨useImperativeHandle 스터디
 
-### `npm start`
+useImperativeHandle의 사용 방법을 익혀봅니다.
+<br />
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✨CSS 스터디
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**/css**
 
-### `npm test`
+심화적인 css 스터디를 진행합니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. input을 커스텀 해 만든 스위치 토글
+   <br />
+   <br />
 
-### `npm run build`
+### ✨페이지네이션
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**/pagination**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+쿼리로 limit과 offset 요청을 보내 페이지네이션을 구현합니다.
+<br />
+<br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ✨몬스터
 
-### `npm run eject`
+**/monsters**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+url의 :id 값마다 다른 페이지가 나오도록하고 useNavigate을 사용해 페이지를 이동합니다.
+<br />
+<br />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ✨카카오 카드
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**/kakao**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+목데이터로 받아온 데이터를 화면에 보여주고 같은 컴포넌트로 여러 레이아웃을 보여줍니다.
+<br />
+<br />
 
-## Learn More
+### ✨블럭쌓기
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**/block**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+버튼을 누르면 해당 버튼과 연결된 블럭이 순서가 바뀌지않고 쌓입니다.
