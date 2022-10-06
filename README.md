@@ -8,7 +8,15 @@
   <br />
   <br />
 
+### ✨Recoil 스터디
+
+Recoil의 사용 방법을 익혀봅니다.
+<br />
+<br />
+
 ### ✨useImperativeHandle 스터디
+
+**/useimparetivehandle**
 
 useImperativeHandle의 사용 방법을 익혀봅니다.
 <br />
