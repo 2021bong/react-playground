@@ -7,6 +7,7 @@ import Pagination from './pages/Pagination/Users';
 import CssStudy from './pages/cssStudy/CssStudy';
 import Parents from './pages/manipulate/Parents';
 import Recoil from './pages/recoil/Recoil';
+import ChartComponent from './pages/graph/ChartComponent';
 import { RecoilRoot } from 'recoil';
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
           <Route path='/pagination' element={<Pagination />} />
           <Route path='/css' element={<CssStudy />} />
           <Route path='/useimparetivehandle' element={<Parents />} />
-          <Route path='/' element={<Recoil />} />
+          <Route path='/recoil' element={<Recoil />} />
+          <Route path='/' element={<ChartComponent />} />
         </Routes>
       </Router>
     </RecoilRoot>

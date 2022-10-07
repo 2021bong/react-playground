@@ -8,7 +8,15 @@
   <br />
   <br />
 
+### ✨Chart.js 스터디
+
+Chart.js의 사용 방법을 익혀봅니다.
+<br />
+<br />
+
 ### ✨Recoil 스터디
+
+**/recoil**
 
 Recoil의 사용 방법을 익혀봅니다.
 <br />
